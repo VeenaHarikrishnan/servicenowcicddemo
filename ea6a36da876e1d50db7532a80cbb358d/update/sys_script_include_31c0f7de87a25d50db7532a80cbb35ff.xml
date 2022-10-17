@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.veena_scriptinclude</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>veena_scriptinclude</name>
+        <script><![CDATA[var veena_scriptinclude = Class.create();
+veena_scriptinclude.prototype = {
+    initialize: function() {
+    },
+
+    type: 'veena_scriptinclude'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>A286821_admin</sys_created_by>
+        <sys_created_on>2022-10-17 15:53:06</sys_created_on>
+        <sys_id>31c0f7de87a25d50db7532a80cbb35ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>veena_scriptinclude</sys_name>
+        <sys_package display_value="githubactiondemoveena" source="ea6a36da876e1d50db7532a80cbb358d">ea6a36da876e1d50db7532a80cbb358d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="githubactiondemoveena">ea6a36da876e1d50db7532a80cbb358d</sys_scope>
+        <sys_update_name>sys_script_include_31c0f7de87a25d50db7532a80cbb35ff</sys_update_name>
+        <sys_updated_by>A286821_admin</sys_updated_by>
+        <sys_updated_on>2022-10-17 15:53:06</sys_updated_on>
+    </sys_script_include>
+</record_update>
