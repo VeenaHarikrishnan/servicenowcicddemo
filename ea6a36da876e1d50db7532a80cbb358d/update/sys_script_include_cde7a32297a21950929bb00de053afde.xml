@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.demoscript</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>demoscript</name>
+        <script><![CDATA[var demoscript = Class.create();
+demoscript.prototype = {
+    initialize: function() {
+    },
+	//script
+    type: 'demoscript'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>A286821_admin</sys_created_by>
+        <sys_created_on>2022-10-18 09:49:23</sys_created_on>
+        <sys_id>cde7a32297a21950929bb00de053afde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>demoscript</sys_name>
+        <sys_package display_value="githubactiondemoveena" source="ea6a36da876e1d50db7532a80cbb358d">ea6a36da876e1d50db7532a80cbb358d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="githubactiondemoveena">ea6a36da876e1d50db7532a80cbb358d</sys_scope>
+        <sys_update_name>sys_script_include_cde7a32297a21950929bb00de053afde</sys_update_name>
+        <sys_updated_by>A286821_admin</sys_updated_by>
+        <sys_updated_on>2022-10-18 09:49:23</sys_updated_on>
+    </sys_script_include>
+</record_update>
